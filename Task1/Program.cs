@@ -1,4 +1,4 @@
-﻿string[]originalArray = {"машина","лес","девочка","дело","три"};
+﻿string[]originalArray = {"машина","лес","девочка","дело","три","123"};
 
 string[]newArray = FilterArrayByLength(originalArray,3);
 Console.WriteLine("OriginalArray:" + string.Join(",", originalArray));
