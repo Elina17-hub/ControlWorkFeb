@@ -1,9 +1,7 @@
 ﻿string[]originalArray = {"машина","лес","девочка","дело","три","123"};
-
-string[]newArray = FilterArrayByLength(originalArray,3);
 Console.WriteLine("OriginalArray:" + string.Join(",", originalArray));
+string[]newArray = FilterArrayByLength(originalArray,3);
 Console.WriteLine("NewArray:" + string.Join(",", newArray));
-
 static string[]FilterArrayByLength(string[]originalArray, int maxLength)
 {
     int count = 0;
