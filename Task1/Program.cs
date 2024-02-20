@@ -31,3 +31,6 @@ foreach(string str in originalArray)
 
  Console.WriteLine("NewArray:" + string.Join(",", newArray));
 
+// Elina@Maxims-MacBook-Pro Task1 % dotnet run
+// OriginalArray:москва,берлин,париж,-2,123,???
+// NewArray:-2,123,???
